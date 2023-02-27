@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+
+	<category>
+	    <pattern>_ZDRAVO_</pattern>
+	    <template>Zdravo, kako mogu da ti pomognem</template>
+    </category>
+    
+	<category>
+	    <pattern>DOBAR *</pattern>
+    	    <template>Dobar <star/> i vama. </template>
+    </category>
+    <category>
+	    <pattern>DOBRO *</pattern>
+    	    <template>Dobro <star/> i vama. Kako se ti zoves? </template>
+    </category>
+</aiml>
